@@ -1,0 +1,48 @@
+*,html,body
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+body
+    {
+        background-color: bisque;
+    }
+.cabecera
+    {
+        box-shadow: 1px 2px 5px #000000;
+        background-color: chocolate;
+        
+    }
+.menu
+{
+    text-align: right;
+
+}
+.listaMenu 
+    {
+        display: inline-block;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
+        
+       
+    }  
+.listaMenu a
+    {
+        
+        text-decoration: none;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: fantasy;
+        color: black;
+        padding: 6px;
+    }      
+.listaMenu a:hover
+    {
+        transition: 0.2s ease-in-out;
+        color: aqua;
+        border-radius: 5px;
+        background-color: black;   
+    }

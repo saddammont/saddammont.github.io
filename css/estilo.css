@@ -39,18 +39,19 @@ body
         font-size: x-large;
         color: white;
         padding: 6px;
+        
     }      
 .listaMenu a:hover
     {
+        
         transition: 0.2s ease-in-out;
-        color: black;
+        color: aqua;
         border-radius: 5px;
-        background-color: yellow;
         padding-bottom: 0.3em;
         padding-top: 0.6em;
-        box-shadow black 2px 2px 3px;
         
     }
+
 .contenedor1
     {
         
@@ -63,9 +64,9 @@ body
     }
 .texto1
     {
-        color: white;
+        color: cadetblue;
         font-size: x-large;
-        text-shadow: black 3px 3px 3px;
+        text-shadow:0px 0px 3px black;
         text-align: justify;
         width: 400px;
         height: 300px;

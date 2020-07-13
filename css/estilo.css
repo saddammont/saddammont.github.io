@@ -84,12 +84,11 @@ body
     }    
 .cuadro2
     {
-        border: solid 5px black;
-        color:blue;
-        display: inline-table;
-        width: 33%;
-        padding: 7em 0em 7em 0em;
-        text-align: center;
+        
+        width: 33.71%;
+        display: inline-block;
+        
+       
     }
 .cuadro2Q
     {

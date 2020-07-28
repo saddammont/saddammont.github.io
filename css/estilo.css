@@ -28,6 +28,7 @@ body
         
        
     }  
+
 .listaMenu a
     {
         
@@ -56,7 +57,7 @@ body
     {
         
         width: 100%;
-        height: 600px;
+        height: 20em   ;
         background-image: url(https://i.imgur.com/BPfUBrU.jpg) ;
         background-repeat: no-repeat;
         background-position: center;

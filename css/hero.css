@@ -6,13 +6,13 @@
     display: flex;
     justify-content: space-evenly;
     max-height: 28em;
-    background-color: #0f4c75;
+    background-color: white;
     }
 .hero-texto 
     {
         margin: 7em;
         line-height: 3em;
-        color: #00b7c2;
+        color: #1d7479;
         
     }
 .hero-texto h3
@@ -35,9 +35,16 @@
         border: outset;
         border-color: white;
     }
-.hero img
+.hero-image
     {
         border-radius: 25px;
         width: 22.5em;
         height: auto;
+        transition: box-shadow 0.7s;
+        
+    }
+.hero-image:hover
+    {
+
+        box-shadow: 20px 20px 2px #000;
     }

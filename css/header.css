@@ -1,7 +1,4 @@
-header
-{
-  
-}
+
 header section
 {
   display: flex;
@@ -38,4 +35,12 @@ header section
   font-size: 1.5em;
   text-decoration: none;
 }
-
+.button
+{
+  font-weight: bolder;
+  font-size: 3em;
+  color: red;
+  margin: 0.5em;
+  text-shadow: 1px 1px 5px #000;
+  cursor: pointer;
+}

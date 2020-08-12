@@ -40,14 +40,3 @@
 
 
 
-
-.menu-stick
-{
-      
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: height 1s;
-   
-}

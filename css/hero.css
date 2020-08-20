@@ -2,8 +2,9 @@
 {
     width: auto;
     height: auto;
-    font-size: 16px;
+    font-size: 1rem;
     background-image: url(../images/foto-2.jpg);
+    
 
 }
 .hero-content
@@ -17,17 +18,8 @@
 
 }
 
-.hero figure img
-{
-    max-width: 100%;
-    width: auto;
-    z-index: 0;
-    position: relative;
-    
-    opacity: 0.8;
 
-}
-.hero h2
+.hero h1
 {
     
     font-size: 3em;
@@ -35,10 +27,23 @@
     text-shadow: 1px 1px 3px black;
     
 }
+#hero-text
+{
+    background-color: black;
+    color: #20aa00;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
 .miphoto
 {
-    width: 17em;
-    height: 17em;
-    position: absolute;
-    z-index: 1;
+    width: auto;
+    height: 22em;
+    margin-right: 3em;
+    max-width: 100%;
+
+    width: auto;  
+    border-radius: 2em;
+    box-shadow: 2px 2px 3px whitesmoke;
 }

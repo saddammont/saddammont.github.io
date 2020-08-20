@@ -1,0 +1,44 @@
+.hero
+{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    background-image: url(../images/foto-2.jpg);
+
+}
+.hero-content
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 2em;
+    align-items: center;
+    position: relative;
+    padding: 7em 0;
+
+}
+
+.hero figure img
+{
+    max-width: 100%;
+    width: auto;
+    z-index: 0;
+    position: relative;
+    
+    opacity: 0.8;
+
+}
+.hero h2
+{
+    
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px black;
+    
+}
+.miphoto
+{
+    width: 17em;
+    height: 17em;
+    position: absolute;
+    z-index: 1;
+}

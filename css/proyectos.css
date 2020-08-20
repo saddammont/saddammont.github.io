@@ -40,16 +40,14 @@ font-size: 3em;
     width: 100%;
     height: 0;
     transition: ease 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item:hover .overlay
 {
     bottom: 0;
     height: 100%;
+    
 }
-.item-detail
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+

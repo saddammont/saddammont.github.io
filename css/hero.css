@@ -3,7 +3,11 @@
     width: auto;
     height: auto;
     font-size: 1rem;
-    background-image: url(../images/foto-2.jpg);
+    background-image: linear-gradient(
+        rgba(8, 8, 20, 0.329), 
+        rgba(8, 8, 20, 0.329)
+      ),
+      url(../images/foto-2.jpg);
     
 
 }

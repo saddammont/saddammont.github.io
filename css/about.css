@@ -1,23 +1,25 @@
 .about-description
 {
     display: flex;
+    justify-content: space-between;
     
     align-items: center;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .about-description img
 {
-    width: 70%;
-    height: auto;
-    margin-left: 7rem;
+    width: auto;
+    height: 25rem;
+    
     
 }
 .about-description-text
 {
     font-size: 1.5rem;  
     text-align: justify;
-    margin-right: 3rem; 
+    margin: 0 3rem 0 7rem;
+    
 }
 .about-description-text h3
 {

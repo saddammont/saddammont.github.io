@@ -1,0 +1,35 @@
+.about-description
+{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin: 4rem;
+}
+
+.about-description img
+{
+    width: auto;
+    height: 25rem;
+    
+    
+}
+.about-description-text
+{
+    font-size: 1.5rem;  
+    text-align: justify;
+    margin: 0 3rem 0 7rem;
+    
+}
+.about-description-text h3
+{
+    color: #20aa00;
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
+}
+.about-description-text strong
+{
+    color: #20aa00;
+    font-family: 'VT323', monospace;
+    font-size: 2.5rem;
+}

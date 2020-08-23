@@ -14,8 +14,9 @@
 .hero-content
 {
     display: flex;
+    
     justify-content: space-between;
-    margin: 0px 2em;
+    margin: 0px 4em;
     align-items: center;
     position: relative;
     padding: 7em 0;
@@ -43,8 +44,8 @@
 .miphoto
 {
     width: auto;
-    height: 22em;
-    margin-right: 3em;
+    height: 25rem;
+    
     max-width: 100%;
 
     width: auto;  

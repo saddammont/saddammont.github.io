@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- aqui van los css -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/proyectos.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/master.css">
-
+    <link rel="stylesheet" href="./css/max-width-600.css">
 
     <!--aqui van  los link para los favicon  -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -20,9 +22,10 @@
     <!-- aqui agrego el link de la fuente -->
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=VT323&display=swap" rel="stylesheet">
+
    <!-- aqui agrego los link para los iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
       
   </head>
   <body>
@@ -30,24 +33,22 @@
       
         <section>
           <div class="logo">
-            <a href=""><img src="images/logo-de-Bb.svg" alt="logo" ></a>
+            <a href="index.html"><img src="images/logo-de-Bb.svg" alt="logo" ></a>
            </div>
           <div class="menu">
             <ul>
-              <li> <a href="#">
-                Inicio
+              <li> <a href="#proyectos">
+                Portafolio
               </a></li>
-              <li> <a href="#">
-                Integracion
+              <li> <a href="#about">
+                Acerca de mí
               </a></li>
-              <li> <a href="#">
-                Clientes
+              <li> <a href="https://kirbani.blogspot.com/" target="_blank" >
+                Blog
               </a></li>
-              <li> <a href="#">
-                HelpDesk
-              </a></li>
-              <li> <a href="#">
-                Contactenos
+              
+              <li> <a href="#contacto">
+                Contacto
               </a></li>
             </ul>
 
@@ -55,6 +56,7 @@
         </section>
       
     </header>
+
     <div class="hero">
       <section class="hero-content">
         <h1>Hola!! Soy Kirbani Montiel <br>
@@ -63,7 +65,8 @@
         <figure><img src="./images/My image.jpg" alt="my image" class="miphoto"></figure>
       </section>
     </div>
-    <h2 class="head-proyect">proyectos</h2>
+
+    <h2 class="titulos" id="proyectos">proyectos</h2>
     <div class="proyect">
       <div class="item">
         <img src="./images/templ1.jpg" alt="" srcset="">
@@ -134,7 +137,52 @@
       </div>
 
     </div>
-   
+
+    <div class="about" id="about">
+      <h2 class="titulos" id="about">¿Quien Soy?</h2>
+      <section class="about-description">
+        
+          <div>
+            <img src="images/myImage2.jpg" alt="myImage2" >
+          </div>
+       
+        <div class="about-description-text">
+          <h3>Saddam Kirbani Montiel</h3><br>
+          <p>Resido en Costa rica 🇨🇷, <br>me especializo en desarrollo de paginas web (Frontend developer). <br>
+          me facina resolver problemas y enfrentarme a nuevos retos que midan mi conocimiento. <br><br>
+
+          mi razon de vida es <strong>APRENDER</strong>.
+          </p>
+        </div>
+      </section>
+    </div>
+    
+    <footer>
+      <div>
+        <a href="index.html"><img src="./images/logo-de-Bb.svg" alt="logo"></a>
+      </div>
+      <div id="contacto">
+        <h3>Contacto</h3>
+        <a href="mailto:saddammont@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Correo </a> <br>
+        <a href="https://api.whatsapp.com/send?phone=50670075038&amp;text=Hola!%20Necesito%20informaci%C3%B3n%20acerca%20de%20un%20sitio%20web" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://www.linkedin.com/in/saddam-montiel-8b0259156/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/saddam.montiel" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://github.com/saddammont" target="_blank"><i class="fa fa-github" 
+        aria-hidden="true"></i></a>
+        
+
+      </div>
+      <div>
+        <p>Hecho con esmero por Saddam Montiel</p>
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=saddammont.github.io&profile=css3svg&usermedium=all&warning=1&vextwarning=">
+          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" class="css-check"/>
+          </a>
+      </div>
+
+        
+    </footer>
 
 
 

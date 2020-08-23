@@ -1,0 +1,80 @@
+footer
+{
+    color: black;
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+/* este es el logo */
+footer div img
+{
+    width: 16em;
+  height: 5em;
+}
+
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer div #contacto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div a:hover
+{
+    color: #20aa00;  
+}
+
+
+
+
+
+
+
+
+
+
+
+.redes-sociales
+{
+    font-size: 3rem;
+    
+    
+
+}
+footer .redes-sociales a:hover
+{
+   color: #20aa00;
+}
+
+
+
+footer div p
+{
+    color: #20aa00;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.css-check
+{
+   position: absolute; 
+    right: 0;
+    bottom: 0;
+    border:0;
+    width:88px;
+    height:31px;
+}

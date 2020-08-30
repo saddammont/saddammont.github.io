@@ -40,6 +40,13 @@ header section
 {
   color: #20aa00;
 }
+.menu-hamburgesa
+{
+  display: none;
+  font-size: 3rem;
+  margin: 2rem;
+ 
+}
 .button
 {
   font-weight: bolder;

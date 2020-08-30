@@ -35,17 +35,6 @@ footer div a:hover
 {
     color: #20aa00;  
 }
-
-
-
-
-
-
-
-
-
-
-
 .redes-sociales
 {
     font-size: 3rem;
@@ -65,9 +54,14 @@ footer div p
     color: #20aa00;
     font-family: 'VT323', monospace;
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+   
 }
-
+.contactos p
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .css-check
 {

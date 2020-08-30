@@ -29,15 +29,14 @@
       
   </head>
   <body>
-    <header> 
+    <header style="transition: height 1s ease ;"> 
       
-        <section>
-          <div class="logo">
+        <section >
+          <div class="logo" id="logo">
             <a href="index.html"><img src="images/logo-de-Bb.svg" alt="logo" ></a>
            </div>
-           <div class="menu-hamburgesa" id="bars" ><i class="fa fa-bars" aria-hidden="true"></i></div>
-          </div>
-          <div class="menu">
+           
+          <div class="menu" id="menu">
             <ul>
               <li> <a href="#proyectos">
                 Portafolio
@@ -54,6 +53,9 @@
               </a></li>
             </ul>
             
+          </div>
+          <div class="menu-hamburgesa" id="bars" ><i class="fa fa-bars" aria-hidden="true"></i></div>
+          <div class="menu-close" id="close-b" ><i class="fa fa-times" aria-hidden="true"></i></div>
         </section>
       
     </header>
@@ -61,7 +63,7 @@
     <div class="hero">
       <section class="hero-content">
         <h1>Hola!! Soy Kirbani Montiel <br>
-          <span id="hero-text">desarrollor web</span>
+          <span id="hero-text">desarrollador web</span>
         </h1>
        
       </section>
@@ -150,7 +152,7 @@
        
         <div class="about-description-text">
           <h3>Saddam Kirbani Montiel</h3><br>
-          <p>Resido en Costa rica 🇨🇷, <br>me especializo en desarrollo de paginas web (Frontend developer). <br>
+          <p>Resido en Costa rica 🇨🇷, <br>me especializo en desarrollo de paginas web (Frontend developer). <br><br>
           me facina resolver problemas y enfrentarme a nuevos retos que midan mi conocimiento. <br><br>
 
           mi razon de vida es <strong>APRENDER</strong>.
@@ -186,6 +188,6 @@
 
 
 
-  
+  <script src="./js/menu-hamburguesa.js" defer></script>
   </body>
 </html>

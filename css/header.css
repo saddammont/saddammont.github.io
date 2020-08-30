@@ -5,6 +5,7 @@ header section
   justify-content: space-between;
   background-color: #000;
   width: auto;
+  
 }
 .logo a img
 {
@@ -18,6 +19,7 @@ header section
 {
   display: flex;
   align-items: center;
+  transition: 1s ease;
 }
 .menu ul
 {
@@ -35,6 +37,8 @@ header section
   font-size: 2rem;
   text-decoration: none;
   font-family: 'VT323', monospace;
+ 
+ 
 }
 .menu ul li a:hover
 {
@@ -46,6 +50,12 @@ header section
   font-size: 3rem;
   margin: 2rem;
  
+}
+.menu-close
+{
+  display: none;
+  font-size: 3rem;
+  margin: 2rem;
 }
 .button
 {

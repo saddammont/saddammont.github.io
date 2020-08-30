@@ -1,19 +1,145 @@
-@media only screen and (max-width:1023px)
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px)
+{...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
 {
+    .menu
+    {
+        display: none;
+    }
     .hero-content
     {
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+    }
+    .miphoto
+    {
+        height: 28rem;
+    }
+    .hero-content h1
+    {
+        margin: 2rem 0;
+    }
+    .proyect
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second
+    {
+        display: none;
     }
     .about-description
     {
         flex-wrap: wrap-reverse;
-        justify-content: center;
+        margin: 4rem 0;
+    }
+    .about-description img 
+    {
+        position: relative;
+        left: 9rem;
+        margin-top: 2rem;
+        height: 28rem;
+    }
+    footer
+    {
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+    .creditos
+    {
+        margin-right: 1rem;
+        right: 0px;
+        position: absolute;
+        bottom: 0px;
+    }
+    .creditos a
+    {
+        display: none;
+    }
+    }
+    .redes-sociales
+    {
+        font-size: 6rem;
+    }
+    .logo-footer
+    {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .hero-content
+    {
+        margin: 0;
+    }
+    .proyect
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second
+    {
+        display: none;
+    }
+    .about-description
+    {
+        margin: 4rem 1rem;
+    }
+    .about-description-text
+    {
+        margin: 0 2rem;
+    }
+    .about-description-text
+    {
+        text-align: left;
+
+    }
+    footer
+    {
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+    .creditos
+    {
+        margin-right: 1rem;
+        right: 0px;
+        position: absolute;
+        bottom: 0px;
+    }
+    .creditos a
+    {
+        display: none;
+    }
+    }
+    .redes-sociales
+    {
+        font-size: 6rem;
+    }
+    .logo-footer
+    {
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .about-description-text
+    {
+        text-align: left;
+
     }
     .proyect
     {
         grid-template-columns: repeat(2,1fr);
     }
-    
-
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{...}

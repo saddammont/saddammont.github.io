@@ -131,3 +131,36 @@
         padding: 0;
     }   
     }
+    @media (max-width: 320px)
+    {
+        html 
+        {
+            font-size: 10px;
+        }
+      /* Selectors and styles affecting screens UP TO 480px (Phone) */
+        
+      .menu
+      {
+          display: none;
+        
+         align-items: center;
+
+      }
+   .menu ul
+      {
+          flex-direction: column;
+      }
+      .menu ul li 
+      {
+          margin: 1rem;
+      } 
+      .menu-hamburgesa
+      {
+          display: flex;
+
+      }
+  .about-image
+  {
+      padding: 0;
+  }  
+    } 

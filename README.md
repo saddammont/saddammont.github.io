@@ -1,2 +1,0 @@
-# portafolio
-imi primer portafolio

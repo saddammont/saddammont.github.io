@@ -1,5 +1,8 @@
 .hero
 {
+    display: flex;
+    justify-content: space-around;
+    padding: 8rem 0;
     width: auto;
     height: auto;
     font-size: 1rem;
@@ -16,10 +19,10 @@
     display: flex;
     
     justify-content: space-between;
-    margin: 0px 4em;
+    margin: 0px 4rem;
     align-items: center;
     position: relative;
-    padding: 7em 0;
+    padding: 7rem 0;
 
 }
 
@@ -27,7 +30,7 @@
 .hero h1
 {
     
-    font-size: 3em;
+    font-size: 3rem;
     color: whitesmoke;
     text-shadow: 1px 1px 3px black;
     
@@ -39,7 +42,7 @@
     font-family: 'VT323', monospace;
     font-weight: bolder;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 4rem;
 }
 .miphoto
 {
@@ -49,6 +52,6 @@
     max-width: 100%;
 
     width: auto;  
-    border-radius: 2em;
+    border-radius: 2rem;
     box-shadow: 2px 2px 3px whitesmoke;
 }

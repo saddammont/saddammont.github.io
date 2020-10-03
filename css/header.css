@@ -4,20 +4,22 @@ header section
   display: flex;
   justify-content: space-between;
   background-color: #000;
+  width: auto;
   
 }
 .logo a img
 {
   background-color: white;
   
-  width: 16em;
-  height: 5em;
+  width: 16rem;
+  height: 5rem;
   
 }
 .menu
 {
   display: flex;
   align-items: center;
+  transition: 1s ease;
 }
 .menu ul
 {
@@ -27,7 +29,7 @@ header section
 .menu ul li
 {
   display: flex;
-  margin-right: 2em;
+  margin-right: 2rem;
 }
 .menu ul li a
 {
@@ -35,17 +37,32 @@ header section
   font-size: 2rem;
   text-decoration: none;
   font-family: 'VT323', monospace;
+ 
+ 
 }
 .menu ul li a:hover
 {
   color: #20aa00;
 }
+.menu-hamburgesa
+{
+  display: none;
+  font-size: 3rem;
+  margin: 2rem;
+ 
+}
+.menu-close
+{
+  display: none;
+  font-size: 3rem;
+  margin: 2rem;
+}
 .button
 {
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 3rem;
   color: red;
-  margin: 0.5em;
+  margin: 0.5rem;
   text-shadow: 1px 1px 5px #000;
   cursor: pointer;
 }

@@ -1,0 +1,166 @@
+@media (max-width: 979px)
+    {
+            .hero figure 
+            {
+                padding-right: 3rem;
+            }
+            .proyect
+            {
+                grid-template-columns: repeat(2,1fr);
+            }
+            .redes-sociales
+            {
+                font-size: 6rem;
+            }
+            .contacto
+            {
+                font-size: 1rem;
+            }
+            footer
+            {
+                font-size: 2rem;
+                padding: 0 1rem;
+            }
+            .about-description-text h3
+            {
+                text-align: left;
+            }
+            .creditos
+            {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 1rem;
+            }
+            .creditos a
+            {
+                display: none;    
+            };
+    }
+  
+@media (max-width: 767px) 
+    {
+        .hero
+        {
+            flex-wrap: wrap;
+            padding-top: 0;
+        }
+        
+        .proyect
+        {
+            grid-template-columns: repeat(1,1fr);
+        }
+        .second
+        {
+            display: none;
+        }
+        .about-description
+        {
+            flex-wrap: wrap-reverse;
+            align-items: center;
+        }
+        .about-description-text
+        {
+            margin: 0;
+        }
+        .about-image
+        {
+            padding: 3rem 11rem;
+        }
+        .creditos
+        {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 0 1rem;
+        }
+        .creditos a
+        {
+            display: none;    
+        }
+        .menu
+        {
+            display: none;
+           
+           align-items: center;
+
+        }
+        .menu ul
+        {
+            flex-direction: column;
+        }
+        .menu ul li 
+        {
+            margin: 1rem;
+        }
+        .menu-hamburgesa
+        {
+            display: flex;
+
+        }
+       
+    }
+  
+@media (max-width: 480px) 
+    {
+
+      /* Selectors and styles affecting screens UP TO 480px (Phone) */
+        
+      .menu
+        {
+            display: none;
+          
+           align-items: center;
+
+        }
+     .menu ul
+        {
+            flex-direction: column;
+        }
+        .menu ul li 
+        {
+            margin: 1rem;
+        } 
+        .menu-hamburgesa
+        {
+            display: flex;
+
+        }
+    .about-image
+    {
+        padding: 0;
+    }   
+    }
+    @media (max-width: 320px)
+    {
+        html 
+        {
+            font-size: 10px;
+        }
+      /* Selectors and styles affecting screens UP TO 480px (Phone) */
+        
+      .menu
+      {
+          display: none;
+        
+         align-items: center;
+
+      }
+   .menu ul
+      {
+          flex-direction: column;
+      }
+      .menu ul li 
+      {
+          margin: 1rem;
+      } 
+      .menu-hamburgesa
+      {
+          display: flex;
+
+      }
+  .about-image
+  {
+      padding: 0;
+  }  
+    } 

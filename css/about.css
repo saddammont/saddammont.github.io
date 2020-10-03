@@ -11,8 +11,12 @@
 {
     width: auto;
     height: 25rem;
+   
     
-    
+}
+.about-description
+{
+    padding: 0;
 }
 .about-description-text
 {

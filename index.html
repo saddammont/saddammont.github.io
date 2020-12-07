@@ -32,23 +32,24 @@
     <header > 
       
         <section >
-          <div class="logo" id="logo">
-            <a href="index.html"><img src="images/logo-de-Bb.svg" alt="logo" ></a>
-           </div>
+         
            
           <div class="menu" id="menu">
             <ul>
-              <li> <a href="#proyectos">
+              <li > <a href="#home" class="links active">
+                Home
+              </a></li>
+              <li> <a href="#proyectos" class="links">
                 Portafolio
               </a></li>
-              <li> <a href="#about">
+              <li> <a href="#about" class="links">
                 Acerca de mí
               </a></li>
-              <li> <a href="https://kirbani.blogspot.com/" target="_blank" >
+              <li> <a href="https://kirbani.blogspot.com/" target="_blank" class="links">
                 Blog
               </a></li>
               
-              <li> <a href="#contacto">
+              <li> <a href="#contacto" class="links">
                 Contacto
               </a></li>
             </ul>
@@ -60,17 +61,17 @@
       
     </header>
 
-    <div class="hero">
+    <div class="hero" id="home">
+      <figure><img src="./images/My image.jpg" alt="my image" class="miphoto"></figure>
       <section class="hero-content">
-        <h1>Hola!! Soy Kirbani Montiel <br>
-          <span id="hero-text">desarrollador web</span>
+        <h1>Front-End Web Developer <br>
+          <span id="hero-text">with a passion for learning</span>
         </h1>
        
       </section>
-      <figure><img src="./images/My image.jpg" alt="my image" class="miphoto"></figure>
     </div>
 
-    <h2 class="titulos" id="proyectos">proyectos</h2>
+    <h2 class="titulos" id="proyectos">Proyectos</h2>
     <div class="proyect">
       <div class="item">
         <img src="./images/templ1.jpg" alt="" srcset="">
@@ -168,26 +169,27 @@
         <a href="mailto:saddammont@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Correo </a> <br>
         <a href="https://api.whatsapp.com/send?phone=50670075038&amp;text=Hola!%20Necesito%20informaci%C3%B3n%20acerca%20de%20un%20sitio%20web" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
       </div>
+
+      <div class="creditos">
+        <p>Hecho con esmero por Saddam Montiel</p>
+        
+      </div>
+
       <div class="redes-sociales">
         <a href="https://www.linkedin.com/in/saddam-montiel-8b0259156/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/saddam.montiel" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href="https://github.com/saddammont" target="_blank"><i class="fa fa-github" 
         aria-hidden="true"></i></a>
-        
-
+      
       </div>
-      <div class="creditos">
-        <p>Hecho con esmero por Saddam Montiel</p>
-        <a href="http://jigsaw.w3.org/css-validator/validator?uri=saddammont.github.io&profile=css3svg&usermedium=all&warning=1&vextwarning=">
-          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" class="css-check"/>
-          </a>
-      </div>
+     
 
         
     </footer>
 
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/nav.js"></script>
   <script src="./js/menu-hamburguesa.js" defer></script>
   </body>
 </html>

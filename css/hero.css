@@ -6,11 +6,9 @@
     width: auto;
     height: auto;
     font-size: 1rem;
-    background-image: linear-gradient(
-        rgba(8, 8, 20, 0.329), 
-        rgba(8, 8, 20, 0.329)
-      ),
+    background-image: 
       url(../images/foto-2.jpg);
+      background-position: bottom;
     
 
 }
@@ -37,8 +35,8 @@
 }
 #hero-text
 {
-    background-color: black;
-    color: #20aa00;
+    
+   
     font-family: 'VT323', monospace;
     font-weight: bolder;
     text-transform: uppercase;

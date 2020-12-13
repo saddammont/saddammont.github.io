@@ -1,20 +1,21 @@
-
+header
+{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  transition: ease-in-out 1s;
+}
 header section
 {
   display: flex;
-  justify-content: space-between;
-  background-color: #000;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.3);
   width: auto;
-  
-}
-.logo a img
-{
-  background-color: white;
-  
-  width: 16rem;
   height: 5rem;
   
 }
+
 .menu
 {
   display: flex;
@@ -31,18 +32,28 @@ header section
   display: flex;
   margin-right: 2rem;
 }
+.links
+{
+  color: #ffffff;
+}
+.active
+{
+  color: #339BEA;
+}
 .menu ul li a
 {
-  color: #fff;
+  
   font-size: 2rem;
   text-decoration: none;
   font-family: 'VT323', monospace;
+  scroll-behavior: smooth;
  
  
 }
+
 .menu ul li a:hover
 {
-  color: #20aa00;
+  color: #339BEA;
 }
 .menu-hamburgesa
 {

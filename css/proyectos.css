@@ -12,7 +12,7 @@
 display: flex;
 align-items: center;
 justify-content: center;
-padding-top: 6rem;
+padding-top: 3rem;
 padding-bottom: 3rem;
 font-size: 3rem;
 }
@@ -36,7 +36,7 @@ font-size: 3rem;
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: rgba(1, 5, 38, 0.8);
+    background-color: rgba(0, 0, 0, 0.527);
     overflow: hidden;
     width: 100%;
     height: 0;

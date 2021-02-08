@@ -105,7 +105,10 @@
     {
 
       /* Selectors and styles affecting screens UP TO 480px (Phone) */
-        
+      html 
+      {
+          font-size: 10px;
+      }
       .menu
         {
             display: none;
@@ -135,10 +138,15 @@
     {
         html 
         {
-            font-size: 10px;
+            font-size: px;
         }
       /* Selectors and styles affecting screens UP TO 480px (Phone) */
         
+      .miphoto
+      {
+          margin-top: 7rem;
+          margin-left: 0;
+      }
       .menu
       {
           display: none;
@@ -157,8 +165,14 @@
       .menu-hamburgesa
       {
           display: flex;
+          color: white;
+          box-shadow: 1px 1px solid black;
 
       }
+      header section {
+          background-color: transparent;
+      }
+
   .about-image
   {
       padding: 0;
